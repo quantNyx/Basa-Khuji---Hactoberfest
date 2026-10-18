@@ -31,7 +31,7 @@ python app.py
 ```
 Open http://127.0.0.1:8000. Windows users can double-click `run.bat`. Without a key the app starts in demo mode with a canned report.
 
-Get a free key at [aistudio.google.com/apikey](https://aistudio.google.com/apikey).
+live link: https://claude.ai/artifact/Y9kNUy1XovAquNo7TkYwFi
 
 | Variable | Default | Purpose |
 |---|---|---|
