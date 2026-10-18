@@ -41,12 +41,6 @@ Get a free key at [aistudio.google.com/apikey](https://aistudio.google.com/apike
 | `DB_PATH` | `basa.db` | Where listings are stored |
 | `PORT` | `8000` | Server port |
 
-## Deploy (Render, free)
-1. Push this repo to GitHub.
-2. On [render.com](https://render.com): New, then Blueprint, pick the repo, Apply.
-3. Paste `GEMINI_API_KEY` when asked. Open the `onrender.com` link once it's live.
-
-Note: on Render's free plan the SQLite file resets when the service restarts, so posted flats are not permanent. Use a managed database for production.
 
 ## Project structure
 ```
@@ -69,8 +63,3 @@ Procfile            gunicorn start command
 - Permanent database, accounts and moderation
 - Self-hosted Gemma option, so no API key is needed
 
-## Team
-Md. Sakib Al Hasan, NITER. Add teammates here.
-
-## License
-MIT
